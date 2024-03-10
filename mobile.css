@@ -3,8 +3,13 @@
   height: 100%;
   object-fit: scale-down;
   object-position: top;
+  z-index: 1;
 }
 
+li a {
+  text-decoration : none;
+  color : rgb(255, 255, 255);
+}
 nav {
   position: relative;
   display: block;
