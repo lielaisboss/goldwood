@@ -7,6 +7,7 @@
 }
 
 li a {
+  list-style-type: none;
   text-decoration : none;
   color : rgb(255, 255, 255);
 }
@@ -24,23 +25,23 @@ span {
   margin-top: 20px;
   width: 100vw;
   padding : 20px;
-  background : rgb(106, 168, 97, 0.8); 
+  background : rgb(106, 110, 97, 0.8); 
   color : white;
   font-size: x-large;
   display: block;
 }
 
 span::after {
-  /*float: right;*/
+  float: right;
   right: 10%;
-  /*content: "+";*/
+  content: "+";
 }
 
 .slide {
   clear:both;
   width:100vw;
   height:0px;
-  overflow: hidden;
+  overflow: auto;
   text-align: center;
   transition: height .4s ease;
   list-style-type: none;
