@@ -26,7 +26,7 @@ span {
   padding : 20px;
   background : rgb(106, 168, 97, 0.8); 
   color : white;
-  font-size : large;
+  font-size: x-large;
   display: block;
 }
 
@@ -43,6 +43,7 @@ span::after {
   overflow: hidden;
   text-align: center;
   transition: height .4s ease;
+  list-style-type: none;
 }
 
 .slide li {padding : 10px;}
