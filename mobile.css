@@ -1,5 +1,6 @@
 body {
   background-image: url('./goldwoodimages/pexels-tyler-lastovich-572688.jpg');
   background-attachment: fixed;
+  background-size: cover;
 }
 
