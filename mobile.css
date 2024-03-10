@@ -7,6 +7,7 @@
 }
 
 li a {
+  font-size: x-large;
   list-style-type: none;
   text-decoration : none;
   color : rgb(255, 255, 255);
