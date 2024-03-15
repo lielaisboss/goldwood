@@ -7,20 +7,331 @@
   <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
-  <img id="background" src="./goldwoodimages/pexels-tyler-lastovich-572688.jpg" alt="background">
+<div class="sākums">
 
-  <nav>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Izvēlne . . .</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#mežizstrāde">Mežizstrāde</a>
+        <a href="#apzaļumošana">Apzaļumošana</a>
+        <a href="#arborists">Arborists</a>
+        <a href="#nekustamais">Nekustamā īpašuma apsaimniekošana</a>
+        <a href="#frēzēšana">Celmu frēzēšana</a>
+        <a href="#kontakti">Kontakti</a>
+      </div>
+    </div>
 
-    <label for="touch"><span>Skatīt</span></label>               
-    <input type="checkbox" id="touch"> 
-  
-    <ul class="slide">
-      <li><a href="#">Sākums</a></li> 
-      <li><a href="#">Par mums</a></li>
-      <li><a href="#">Pakalpojumi</a></li>
-      <li><a href="#">Kontakti</a></li>
-    </ul>
-  
-  </nav> 
+      <div class="parmums">
+          <p style="font-size: large;">Par mums</p>
+          <p>Mūsu komanda ir ar lielu pieredzi mežistrādē un mežsaimniecībā 
+            jau vairāk nekā 20 gadus, savas zināšanas regulāri papildinot dažādos 
+            Latvijas un starptautiskos semināros un apmācībās!</p>
+          <div style="display: flex;">
+
+            <div style="display: inline;
+            width: 50%;">
+                <div style="margin-top: 10%;">
+                  <p style="display: inline;">Savus pakalpojumus sniedzam Latvijas teritorijā un arī ārpus tās.</p>
+                </div>
+
+                <div style="width: 100%; margin-top: 10%; word-wrap: normal;">
+                  Ši pieredze un zināšanas ir mūsu komandas panākumu pamats.
+                </div>
+
+                <div style="width: 100%; margin-top: 10%; word-wrap: normal;">
+                  Lai arī kādi būtu darbi, Lāči tos paveiks!
+                </div>
+            </div>
+
+            <div style="
+            width: 90%;
+            display: block;
+            align-content: center;
+            margin: auto;
+            margin-right: 10%;">
+                <img style="
+                display: inline;
+                width: 100%;
+                object-fit: contain;
+                margin-left: 10%;
+                border: 0px solid white;
+                border-top-right-radius: 25px;
+                border-bottom-left-radius: 25px;" src="./goldwoodimages/goldwood.lv mobile chainsaw.jpg" alt="">
+            </div>
+            
+          </div>
+      </div>
+
+  </div>
+
+  <div id="mežizstrāde" class="mežizstrāde">
+
+        <div class="bloks2">
+          <div style="display: block;
+          text-align: center;
+          text-indent: 20px;">
+          <p style="font-size: x-large;">Mežizstrāde</p>
+          <p style="margin-bottom: 20px;">Mēs nodrošinām pilna cikla meža apsaimniekošanu sākot no kokmateriālu 
+          zāģēšanas pakalpojumam līdz meža atjaunošanas pakalpojuma sniegšanai.</p>
+
+          <img style="
+          display: inline;
+          width: 35vw;
+          object-fit: contain;
+          border: 0px solid white;
+          border-top-right-radius: 25px;
+          border-bottom-left-radius: 25px;" src="./goldwoodimages/goldwood.lv mobile mežizstrāde harvester.jpg" alt="">
+
+          <img style="
+          display: inline;
+          width: 35vw;
+          object-fit: contain;
+          border: 0px solid white;
+          border-top-right-radius: 25px;
+          border-bottom-left-radius: 25px;" src="./goldwoodimages/goldwood.lv mobile mežizstrāde krautuve.jpg" alt="">
+
+          <p>Mūsu pieredzējušie meistari sniegs padomus dokumentācijas sagatavošanai 
+          gan nodrošinās kokmateriālu nogādāšanu pie iepircējiem  kokzāģētavās un ostās par labāko cenu!</p>
+        
+          <p>Mūsu komanda vienmēr parūpēsies lai iegūtu maksimālo peļņu tagad un ilgtermiņā ievērojot Latvijas 
+          likumdošanu, sekojot augstākajiem meža apsaimniekošanas standartiem un principiem.</p>
+          </div>
+
+          <button onclick="topFunction()" id="poga" style="
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: fixed;
+              bottom: 20px;
+              right: 20px;
+              z-index: 99;
+              font-size: 18px;
+              border: none;
+              outline: none;
+              background-color: rgba(62, 90, 43, 0.527);
+              color: white;
+              cursor: pointer;
+              height: 60px;
+              width: 60px;
+              padding: 15px;
+              border-radius: 30px;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708z"/>
+                <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
+              </svg>
+          </button>
+      </div>
+  </div>
+
+  <div id="apzaļumošana" class="apzaļumošana">
+    <div>
+          <div class="apzaļumošanatext">
+            <p style="font-size: x-large;">Apzaļumošana</p>
+            <p>Mūsu komanda nodrošinās jums vēlamo rezultātu sniedzot padomus 
+              un pakalpojumus sākot ar augsnes sagatavošanu līdz apstādījumu 
+              ierīkošanai un kopšanai!</p>
+            <p>Pēc nepieciešamības veicam augsnes analīzes tādējādi nosakot 
+              Latvijas klimatiskajiem apstākļiem saderīgos kokaugus jūsu 
+              izvēlētajā vietā!</p>
+          </div>
+          <img style="
+          display: block;
+          width: 65vw;
+          margin-left: auto;
+          margin-right: auto;
+          object-fit: contain;
+          border: 0px solid white;
+          border-top-right-radius: 25px;
+          border-bottom-left-radius: 25px;" src="./goldwoodimages/goldwood.lv mobile apzaļumošana.jpg" alt="">
+    </div>
+  </div>
+
+  <div id="arborists" class="arborists">
+
+        <div>
+              <p style="font-size: x-large;">Arborists</p>
+              <p>Mūsu komanda nodrošinās jums vēlamo rezultātu sniedzot padomus 
+                un pakalpojumus sākot ar augsnes sagatavošanu līdz apstādījumu 
+                ierīkošanai un kopšanai!
+              </p>
+
+              <div style="display: flex;">
+
+                  <div>
+                    <img style="
+                        display: inline;
+                        width: 35vw;
+                        object-fit: contain;
+                        margin-left: 10%;
+                        border: 0px solid white;
+                        border-top-right-radius: 25px;
+                        border-bottom-left-radius: 25px;" src="./goldwoodimages/goldwood.lv mobile arborists.jpg" alt="">
+                  </div>
+                <div>
+                  <ul id="arboristslist">
+                    <li>Bīstamo koku un zaru zāģēšana</li>
+                    <li>Sausu, vecu un slimu zaru izzāģēšana</li>
+                    <li>Koku vainagu korekciju</li>
+                    <li>Zaru un koksnes izvešanu</li>
+                    <li>Dzīvžogu apgriešana, kopšana</li>
+                    <li>Augļu koku kopšanu</li>
+                  </ul>
+                </div>
+            </div>
+            <img style="
+            display: block;
+            width: 65vw;
+            margin-left: auto;
+            margin-right: auto;
+            object-fit: contain;
+            border: 0px solid white;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;" src="./goldwoodimages/goldwood.lv mobile arborists sunset.jpg" alt="">
+       </div>
+  </div>
+
+
+
+  <div id="nekustamais" class="nekustamais">
+
+              <div>
+                  
+                  <div>
+                        <div>
+                          <p style="font-size: x-large;">Nekustamā īpašuma apsaimniekošana</p>
+                        </div>
+
+                        <p>____________________________</p>
+
+                        <p>&bull; Profesionāla nekustamā īpašuma apsaimniekošana un pārvaldīšana</p>
+                        <p>&bull; Mūsu komanda veic tikai īpašumu teritorijas apsaimniekošanu</p>
+                        <p>&bull; Pakalpojumā ietilpst Kokaugu un zālāju kopšanu, ieskaitot laistīšanu, 
+                          teritorijas labiekārtošanu un uzturēšanu</p>
+                        <p>&bull; Pēc nepieciešamības ziemas sezonā ietvju un ceļu attīrīšanu no sniega</p>
+                        <p>&bull; Nodrošinām arī lauku īpašumu apsaimniekošanu</p>
+                  </div>
+
+                  <div style="
+                    display: flex;
+                    width: 80%;
+                    margin: auto;
+                    justify-content: space-around;">
+                    <div class="bloks6sadaļa1bilde">
+                      <img style="
+                      display: inline;
+                      width: 35vw;
+                      object-fit: contain;
+                      border: 0px solid white;
+                      border-top-right-radius: 25px;
+                      border-bottom-left-radius: 25px;" src="./goldwoodimages/goldwood.lv mobile apsaimniekošana rudens.jpg" alt="">
+                    </div>
+                    <div class="bloks6sadaļa1bilde">
+                      <img style="
+                      display: inline;
+                      width: 35vw;
+                      object-fit: contain;
+                      border: 0px solid white;
+                      border-top-right-radius: 25px;
+                      border-bottom-left-radius: 25px;" src="./goldwoodimages/goldwood.lv mobile apsaimniekošana vasara.jpg" alt="">
+                    </div>
+                  </div>
+
+              </div>
+  </div>
+
+
+
+
+  <div id="frēzēšana" class="frēzēšana">
+
+        <div>
+              <div>
+
+                <p style="font-size: x-large;">Celmu frēzēšana</p>
+                <p>Mēs piedāvājam atbrīvoties no celmiem jeb kurā 
+                  vietā jūsu īpašumā to izfrēzējot!</p>
+                <p>Mūsu tehnika ļauj paveikt darbu arī grūti pieejamās vietās.</p>
+                <p>_________________________________</p>
+              </div>
+        </div>
+
+        <div style="margin-bottom: 20%;"">
+          <img style="
+          display: block;
+          width: 65vw;
+          margin-left: auto;
+          margin-right: auto;
+          object-fit: contain;
+          border: 0px solid white;
+          border-top-right-radius: 25px;
+          border-bottom-left-radius: 25px;" src="./goldwoodimages/goldwood.lv mobile celmufrēze.jpeg" alt="">
+        </div>
+  </div>
+
+
+
+
+  <div id="kontakti" class="kontakti">
+      <div>
+
+            <div>
+              <p style="font-size: x-large; text-indent: 0px;">Kontakti</p>
+              <p>Sazinieties ar lāča pakalpojumi, augstākā līmeņa mežsaimniecības 
+                speciālistiem, lai saņemtu vislabākos pakalpojumus. Sazinieties ar mums:</p>
+              <p>pasts.dhf@gmail.com</p>
+              <p>vai zvaniet mums pa tālruni:</p>
+              <p>+371 29383839</p>
+            </div>
+
+            <div>
+              <img style="
+              display: block;
+              width: 65vw;
+              margin-left: auto;
+              margin-right: auto;
+              object-fit: contain;
+              border: 0px solid white;
+              border-top-right-radius: 25px;
+              border-bottom-left-radius: 25px;" src="./goldwoodimages/goldwood.lv mobile phone.jpg" alt="">
+            </div>
+      </div>
+  </div>
+
+
+
+  <script>
+            function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+
+        let mybutton = document.getElementById("poga")
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+  </script>
 </body>
 </html>
