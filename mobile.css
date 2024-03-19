@@ -14,9 +14,10 @@ html {
 }
 
 .dropbtn {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(40, 80, 40, 0.7),
-  rgba(40, 80, 40, 0.7), rgba(40, 80, 40, 0.7), rgba(255, 255, 255, 0.3));
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgb(40, 80, 40),
+  rgb(40, 80, 40), rgb(40, 80, 40), rgba(255, 255, 255, 0.3));
   backdrop-filter: sepia(5);
+  opacity: 0,1;
   color: white;
   padding: 16px;
   width: 100vw;
@@ -35,7 +36,7 @@ html {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  /*background-color: #f1f1f1;*/
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -48,7 +49,7 @@ html {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  background-color: rgb(111, 177, 119);
+  background-color: rgba(40, 80, 40, 0.7);
 }
 
 /* Change color of dropdown links on hover */
@@ -72,7 +73,6 @@ html {
   margin-top: 10vh;
   padding-bottom: 5%;
   background-color: rgba(40, 80, 40, 0.7);
-  backdrop-filter: sepia(5);
   color: white;
   text-indent: 20px;
   font-size: large;
@@ -91,7 +91,6 @@ html {
           border-bottom-left-radius: 25px;
   margin-top: 20px;
   background-color: rgba(40, 80, 40, 0.7);
-  backdrop-filter: sepia(5);
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -106,12 +105,11 @@ html {
 }
 
 .apzaļumošana {
-border: 0px solid white;
-border-top-right-radius: 25px;
-border-bottom-left-radius: 25px;
+  border: 0px solid white;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
 margin-top: 20px;
 background-color: rgba(40, 80, 40, 0.7);
-backdrop-filter: sepia(5);
 color: white;
 padding-top: 20px;
 padding-bottom: 20px;
@@ -134,7 +132,6 @@ display: block;
   border-bottom-left-radius: 25px;
   margin-top: 20px;
   background-color: rgba(40, 80, 40, 0.7);
-  backdrop-filter: sepia(5);
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -157,7 +154,6 @@ display: block;
   border-bottom-left-radius: 25px;
   margin-top: 20px;
   background-color: rgba(40, 80, 40, 0.7);
-  backdrop-filter: sepia(5);
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -185,7 +181,6 @@ display: block;
   border-bottom-left-radius: 25px;
   margin-top: 20px;
   background-color: rgba(40, 80, 40, 0.7);
-  backdrop-filter: sepia(5);
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -208,7 +203,6 @@ display: block;
   border-bottom-left-radius: 25px;
   margin-top: 20px;
   background-color: rgba(40, 80, 40, 0.7);
-  backdrop-filter: sepia(5);
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
