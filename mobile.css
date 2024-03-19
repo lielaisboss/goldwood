@@ -70,7 +70,7 @@ html {
   display: block;
   margin-top: 10vh;
   padding-bottom: 5%;
-  background-color: rgba(50, 100, 40, 0.8);
+  background-color: rgba(40, 80, 40, 0.8);
   color: white;
   text-indent: 20px;
   font-size: large;
@@ -88,7 +88,7 @@ html {
           border-top-right-radius: 25px;
           border-bottom-left-radius: 25px;
   margin-top: 20px;
-  background-color: rgba(106, 168, 97, 0.8);
+  background-color: rgba(40, 80, 40, 0.8);
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
