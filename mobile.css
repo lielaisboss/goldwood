@@ -1,3 +1,14 @@
+body {
+  background-image: url(./goldwoodimages/goldwood.lv\ mobile\ img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  background-attachment: fixed;
+  
+  height: 300vh;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -75,13 +86,6 @@ html {
 .parmums p {
   text-align: center;
   width: 80vw;
-}
-
-.sākums {
-  background-image: url(./goldwoodimages/goldwood.lv\ mobile\ img.jpg);
-  background-position: top;
-  background-size: cover;
-  padding-bottom: 10%;
 }
 
 .mežizstrāde {
