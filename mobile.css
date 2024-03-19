@@ -63,8 +63,8 @@ html {
 
 .parmums {
   border: 0px solid white;
-          border-top-right-radius: 25px;
-          border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
@@ -72,7 +72,7 @@ html {
   display: block;
   margin-top: 10vh;
   padding-bottom: 5%;
-  background-color: rgba(40, 80, 40, 0.7);
+  background-image: radial-gradient(rgb(255, 255, 255, 0.2), rgba(40, 80, 40, 0.8));
   color: white;
   text-indent: 20px;
   font-size: large;
@@ -87,10 +87,10 @@ html {
 .mežizstrāde {
   position: relative;
   border: 0px solid white;
-          border-top-right-radius: 25px;
-          border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
   margin-top: 20px;
-  background-color: rgba(40, 80, 40, 0.7);
+  background-image: radial-gradient(rgb(255, 255, 255, 0.2), rgba(40, 80, 40, 0.8));
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -109,7 +109,7 @@ html {
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
 margin-top: 20px;
-background-color: rgba(40, 80, 40, 0.7);
+background-image: radial-gradient(rgb(255, 255, 255, 0.2), rgba(40, 80, 40, 0.8));
 color: white;
 padding-top: 20px;
 padding-bottom: 20px;
@@ -131,7 +131,7 @@ display: block;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
   margin-top: 20px;
-  background-color: rgba(40, 80, 40, 0.7);
+  background-image: radial-gradient(rgb(255, 255, 255, 0.2), rgba(40, 80, 40, 0.8));
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -153,7 +153,7 @@ display: block;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
   margin-top: 20px;
-  background-color: rgba(40, 80, 40, 0.7);
+  background-image: radial-gradient(rgb(255, 255, 255, 0.2), rgba(40, 80, 40, 0.8));
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -180,7 +180,7 @@ display: block;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
   margin-top: 20px;
-  background-color: rgba(40, 80, 40, 0.7);
+  background-image: radial-gradient(rgb(255, 255, 255, 0.2), rgba(40, 80, 40, 0.8));
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -202,7 +202,7 @@ display: block;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
   margin-top: 20px;
-  background-color: rgba(40, 80, 40, 0.7);
+  background-image: radial-gradient(rgb(255, 255, 255, 0.2), rgba(40, 80, 40, 0.8));
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
