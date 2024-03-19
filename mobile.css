@@ -14,8 +14,8 @@ html {
 }
 
 .dropbtn {
-  background-image: linear-gradient(rgba(0, 255, 0, 0.3), rgba(40, 100, 40, 0.7),
-   rgba(40, 100, 40, 0.7), rgba(0, 255, 0, 0.3));
+  background-image: linear-gradient(rgba(0, 255, 0, 0.7), rgb(106, 168, 97),
+   rgb(106, 168, 97), rgba(106, 168, 97, 0.8), rgba(0, 255, 0, 0.7);
   color: white;
   padding: 16px;
   width: 100vw;
@@ -25,18 +25,11 @@ html {
   margin-top: 30px;
 }
 
-/* Dropdown button on hover & focus 
-.dropbtn:hover, .dropbtn:focus {
-  background-color: rgb(54, 128, 54);
-}*/
-
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -47,18 +40,14 @@ html {
   width: 100vw;
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content a {
   color: rgb(255, 255, 255);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  background-color: rgb(111, 177, 119);
+  background-color: rgb(106, 168, 97);
 }
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-
 
 .show {
   display:block;
@@ -76,7 +65,7 @@ html {
   display: block;
   margin-top: 10vh;
   padding-bottom: 5%;
-  background-color: rgb(125, 173, 117);
+  background-color: rgba(106, 168, 97, 0.8);
   color: white;
   text-indent: 20px;
   font-size: large;
@@ -94,7 +83,7 @@ html {
           border-top-right-radius: 25px;
           border-bottom-left-radius: 25px;
   margin-top: 20px;
-  background-color: rgb(125, 173, 117);
+  background-color: rgba(106, 168, 97, 0.8);
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -113,7 +102,7 @@ html {
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
 margin-top: 20px;
-background-color: rgb(125, 173, 117);
+background-color: rgba(106, 168, 97, 0.8);
 color: white;
 padding-top: 20px;
 padding-bottom: 20px;
@@ -135,7 +124,7 @@ display: block;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
   margin-top: 20px;
-  background-color: rgb(125, 173, 117);
+  background-color: rgba(106, 168, 97, 0.8);
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -157,7 +146,7 @@ display: block;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
   margin-top: 20px;
-  background-color: rgb(125, 173, 117);
+  background-color: rgba(106, 168, 97, 0.8);
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -184,7 +173,7 @@ display: block;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
   margin-top: 20px;
-  background-color: rgb(125, 173, 117);
+  background-color: rgba(106, 168, 97, 0.8);
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -206,7 +195,7 @@ display: block;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
   margin-top: 20px;
-  background-color: rgb(125, 173, 117);
+  background-color: rgba(106, 168, 97, 0.8);
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
